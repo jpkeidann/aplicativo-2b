@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #D2D2D2;
+    width: 390px;
+    height: 844px;
+}
+
+header{
+    width: 390px;
+    height: 80px;
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+header nav a{
+    text-align: center;
+    color: #0095ff;
+    font-size: 32px;
+    font-family: Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: rgb(0, 59, 187);
+    color: #01ac95;
+    border-radius: 4px;
+}
+
+main{
+    width: 390px;
+    height: 684px;
+    background-color: #D2D2D2;
+}
+
+main p{
+    margin-top: 96px;
+    margin-left: 24px;
+    margin-right: 24px;
+    text-align: justify;
+    background-color: #D2D2D2;
+    color: #0095ff;
+    font-size: 24px;
+    font-family: Tahoma, sans-serif;
+}
+
+main .wire{
+    margin-top: 32px;
+    height: 453px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main .notebook{
+    margin-top: 32px;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main .wire img{
+    width: 180px;
+    height: 393px;
+}
+
+main .notebook img{
+    width: 180px;
+    height: 180px;
+}
+
+
+footer{
+    width: 390px;
+    height: 80px;
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+footer p{
+    text-align: center;
+    color: #0095ff;
+    font-family: Tahoma, sans-serif;
+    font-size: 20px;
+}
