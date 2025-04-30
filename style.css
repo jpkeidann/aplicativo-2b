@@ -97,3 +97,9 @@ footer p{
     font-family: Tahoma, sans-serif;
     font-size: 20px;
 }
+
+footer .rd-sociais img{
+    width: 48px;
+    height: 48px;
+    margin-right: 16px;
+}
